@@ -3,7 +3,12 @@
 > Automatic and clear diagnostics for CORS errors in backend and frontend
 
 [![npm version](https://img.shields.io/npm/v/cors-diagnoser.svg)](https://www.npmjs.com/package/cors-diagnoser)
+[![npm downloads](https://img.shields.io/npm/dm/cors-diagnoser.svg)](https://www.npmjs.com/package/cors-diagnoser)
+[![CI](https://github.com/dominiquekossi/cors-diagnoser/actions/workflows/ci.yml/badge.svg)](https://github.com/dominiquekossi/cors-diagnoser/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/dominiquekossi/cors-diagnoser/branch/main/graph/badge.svg)](https://codecov.io/gh/dominiquekossi/cors-diagnoser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 
 **cors-diagnoser** is an NPM package that helps developers automatically diagnose CORS (Cross-Origin Resource Sharing) issues in both backend and frontend. The package intercepts errors, analyzes HTTP headers, validates preflight configurations, and generates explanatory logs with solution recommendations, making CORS debugging more accessible and efficient.
 
